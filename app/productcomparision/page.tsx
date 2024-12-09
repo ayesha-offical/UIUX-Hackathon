@@ -128,8 +128,8 @@ const page = () => {
               </SelectTrigger>
               <SelectContent className="bg-white">
                 <SelectItem value="bed">Bed</SelectItem>
-                <SelectItem value="sofas">Sofa's</SelectItem>
-                <SelectItem value="Chairs">Chairs</SelectItem>
+                <SelectItem value="sofas">Sofas&apos;</SelectItem>
+                <SelectItem value="Chairs">Chairs&apos;</SelectItem>
               </SelectContent>
             </Select>
           </div>
