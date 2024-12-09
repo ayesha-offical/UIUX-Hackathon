@@ -9,17 +9,11 @@ const Products = () => {
           {" "}
           Our Products{" "}
         </h3>{" "}
-
-
-
-        
         <div className=" main  flex flex-col items-center gap-8">
           <div className=" row1 h-[47%] flex md:flex-row flex-col items-center justify-center gap-5 ">
             <div className=" hidden lg:flex flex-col  bg-[#F7F7F7]">
-            
-              <Image src={"/pic1.svg"} alt="logo" height={301} width={250}
-               />
-             
+              <Image src={"/pic1.svg"} alt="logo" height={301} width={250} />
+
               <div />
               <div className=" flex gap-2 p-3 flex-col">
                 <div className="flex justify-between">
@@ -182,14 +176,12 @@ const Products = () => {
               </div>
             </div>
           </div>
-       
         </div>
         <div className="justify-center items-center flex w-full px-4 sm:px-8">
-  <Button className="h-12 w-full sm:w-40 md:w-56 font-semibold text-[#B88E2F] border border-[#B88E2F] flex justify-center items-center">
-    Show More
-  </Button>
-</div>
-
+          <Button className="h-12 w-full sm:w-40 md:w-56 font-semibold text-[#B88E2F] border border-[#B88E2F] flex justify-center items-center">
+            Show More
+          </Button>
+        </div>
       </div>
     </main>
   );

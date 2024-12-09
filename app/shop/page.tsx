@@ -3,11 +3,18 @@ const Shoppage = () => {
   return (
     <main className="flex flex-col">
       <div
-        className="mt-3 h-[200px] sm:h-[250px] md:h-[316px] w-full max-w-[1262px]"
+        className="mt-3 h-[200px] sm:h-[250px] md:h-[316px] "
         style={{ backgroundImage: "url('/blurpic.svg')" }}
       >
         <div className="flex flex-col items-center justify-center text-center">
-          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold flex mt-16 md:mt-32">
+          <Image
+            className="flex flex-col mt-20"
+            src="headerlogo.svg"
+            alt="Logo"
+            width={50}
+            height={32}
+          />
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium flex pt-3">
             Shop
           </h1>
           <p className="flex flex-row font-medium gap-2 mt-4">
@@ -25,8 +32,7 @@ const Shoppage = () => {
           </p>
         </div>
       </div>
-
-      <div className="bg-[#F9F1E7] mt-5 w-full max-w-[1268px] h-auto md:h-[100px] flex flex-col md:flex-row gap-4 md:gap-14 items-center  p-2 md:p-4 lg:p-0">
+      <div className="bg-[#F9F1E7] mt-5 h-auto md:h-[100px] flex flex-col md:flex-row gap-4 md:gap-14 items-center  p-2 md:p-4 lg:p-0">
         <Image
           className="ml-0 md:ml-32"
           src="filter.svg"
@@ -67,7 +73,6 @@ const Shoppage = () => {
           </div>
         </div>
       </div>
-
       <div className="mt-11  main  flex flex-col items-center gap-8">
         <div className=" row1 h-[47%] flex md:flex-row flex-col items-center justify-center gap-5 ">
           <div className=" hidden lg:flex flex-col  bg-[#F7F7F7]">
@@ -423,15 +428,13 @@ const Shoppage = () => {
         width={350}
         height={80}
       />
-
-      <div className="w-full max-w-[1262px] bg-[#FAF3EA] h-auto md:h-[270px] mt-7 px-4 md:px-8">
-        <div className="flex items-center justify-center text-center mt-7 mb-5 md:mt-24">
+      <div className="bg-[#FAF3EA] h-auto mt-16 py-7 flex justify-center items-center ">
+        <div className="flex items-center justify-center py-20 text-center ">
           <Image
-            src="foterlogos.svg"
-            alt="logos"
+            src="/foterlogos.svg"
+            alt="Footer Logos"
             width={1200}
             height={200}
-            layout="responsive"
           />
         </div>
       </div>

@@ -19,23 +19,22 @@ const Range = () => {
           <Image src={"range1.svg"} alt="pic" width={381} height={480} />
           <span className="flex items-center justify-center text-[#333333] font-semibold text-[24px] p-1 flex-col">
             Dining
-        </span>
+          </span>
         </div>
-    
+
         <div className="range2">
           <Image src={"range2.svg"} alt="pic" width={381} height={480} />
           <span className="flex items-center justify-center text-[#333333] font-semibold p-1 text-[24px] flex-col">
             Living
-        </span>
+          </span>
         </div>
 
         <div className="range3">
           <Image src={"range3.svg"} alt="pic" width={381} height={480} />
           <span className="flex items-center justify-center text-[#333333] p-1 font-semibold text-[24px] flex-col">
             Bedroom
-        </span>
+          </span>
         </div>
-       
       </div>
     </main>
   );

@@ -13,11 +13,12 @@ const config: Config = {
 			'Montserrat':['"Montserrat"','Montserrat'],
 		},
 		screens:{
-			'mobile':'536'
+			'mobile':'536px',
+			'tab':'965px',
+			'small':'523px',
+			'mini':'488px'
 		},
-		screen:{
-			'tab':'965'
-		},
+		
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

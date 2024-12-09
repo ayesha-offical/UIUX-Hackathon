@@ -26,8 +26,8 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="/cart" className="hover:underline hover:text-[#B88E2F]">
-                Cart
+              <a href="/blog" className="hover:underline hover:text-[#B88E2F]">
+                Blog
               </a>
             </li>
             <li>
@@ -48,15 +48,33 @@ const Header = () => {
           height={25}
         />
         <div className="p-1 sm:flex flex-row gap-4 lg:gap-8 hidden cursor-pointer">
-          <Image src="users.svg" alt="User Icon" width={28} height={28} />
+
+          
+        <a
+            href="checkout"
+            className="hover:underline hover:text-[#B88E2F]"
+          >
+             <Image src="users.svg" alt="User Icon" width={28} height={28} />
+          </a>
+
+
           <Image src="search.svg" alt="Search Icon" width={28} height={28} />
-          <Image
-            src="hearticon.svg"
-            alt="Wishlist Icon"
-            width={28}
-            height={28}
-          />
-          <Image src="carticon.svg" alt="Cart Icon" width={28} height={28} />
+
+          <a
+            href="productcomparision"
+            className="hover:underline hover:text-[#B88E2F]"
+          >
+            <Image
+              src="hearticon.svg"
+              alt="Wishlist Icon"
+              width={28}
+              height={28}
+            />
+          </a>
+
+          <a href="cart" className="hover:underline hover:text-[#B88E2F]">
+            <Image src="carticon.svg" alt="Cart Icon" width={28} height={28} />
+          </a>
         </div>
       </header>
     </main>
