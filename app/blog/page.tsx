@@ -36,10 +36,10 @@ const Page = () => {
 <div>
 
 </div>
-<div className="w-[90%] md:w-[100%] justify-center flex py-16  sm:flex-row flex-col gap-28">
-<div className="flex flex-col w-1/2 gap-8 pl-16">
+<div className="lg:w-[100%] place-content-center justify-center item-center flex py-16  sm:flex-row flex-col gap-28">
+<div className="flex flex-col  tab:w-1/2 px-10 gap-8 lg:pl-16">
 
-             <div className="blogimage flex gap-6 flex-col">
+             <div className="blogimage flex gap-6 flex-col ">
                   <Image
                   src={"blogimage.svg"}
                   alt="image"
@@ -105,7 +105,7 @@ const Page = () => {
 </div>
 
 
-   <div className="sideportion w-1/2 flex flex-col ml-10 gap-10">
+   <div className="sideportion w-1/2 tab:flex hidden flex-col ml-10 gap-10">
    <div className="sm:flex gap-0    hidden ">
   <input type="text"  className=" border rounded-r-none h-10 w-64 text-center rounded-[8px]"
    
