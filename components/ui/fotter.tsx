@@ -52,21 +52,21 @@ const Fotter = () => {
       </div>
 
       <div className="flex flex-col gap-4 md:gap-12 mt-10 md:mt-20">
-        <p className="text-[#9F9F9F] font-medium text-sm md:text-base">Help</p>
+        <p className="text-[#9F9F9F] font-medium text-sm md:text-base">More links</p>
         <ul className="flex flex-col gap-4 md:gap-10">
           <li>
-            <a href="#" className="text-black font-medium hover:text-[#B88E2F]">
-              Payment Option
+            <a href="cart" className="text-black font-medium hover:text-[#B88E2F]">
+             Cart
             </a>
           </li>
           <li>
-            <a href="#" className="text-black font-medium hover:text-[#B88E2F]">
-              Returns
+            <a href="checkout" className="text-black font-medium hover:text-[#B88E2F]">
+              Checkout
             </a>
           </li>
           <li>
-            <a href="#" className="text-black font-medium hover:text-[#B88E2F]">
-              Privacy Policies
+            <a href="/productcomparision" className="text-black font-medium hover:text-[#B88E2F]">
+              Product comparision
             </a>
           </li>
         </ul>
