@@ -61,7 +61,7 @@ const Page = () => {
                 Your name
               </Label>
               <Input
-                className=" boder border-gray-500 rounded-[7px] p-6"
+                className=" boder text-[#9F9F9F] border-gray-500 rounded-[7px] p-6"
                 type="email"
                 id="email"
                 placeholder="Abc" 
@@ -70,7 +70,7 @@ const Page = () => {
             <div className="grid w-full max-w-sm items-center gap-7 ">
               <Label htmlFor="email">Email address</Label>
               <Input
-                className="boder border-gray-500 rounded-[7px] p-6"
+                className="boder text-[#9F9F9F] border-gray-500 rounded-[7px] p-6"
                 type="email"
                 id="email"
                 placeholder="Abc@def.com" 
@@ -80,7 +80,7 @@ const Page = () => {
           <div className="grid w-full max-w-sm items-center gap-7">
             <Label htmlFor="email">Subject</Label>
             <Input
-              className="boder border-gray-500 rounded-[7px] p-6 w-[350px]"
+              className="boder border-gray-500 text-[#9F9F9F] rounded-[7px] p-6 w-[350px]"
               type="email"
               id="email"
               placeholder="This is an optional" 
